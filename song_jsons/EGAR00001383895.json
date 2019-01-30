@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "BRCA-FR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001383895",
+    "study": "BRCA-FR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA595170",
+            "specimenId": "SP192093",
+            "sampleSubmitterId": "DN14014",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP192093",
+                "donorId": "DO227936",
+                "specimenSubmitterId": "TU14009",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO227936",
+                "donorSubmitterId": "PI085",
+                "studyId": "BRCA-FR",
+                "donorGender": "female",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "09f99285-b36a-580c-9b61-636cc9a75378",
+            "studyId": "BRCA-FR",
+            "analysisId": "EGAR00001383895",
+            "fileName": "bundle.EGAR00001383895.xml",
+            "fileSize": 6626,
+            "fileType": "XML",
+            "fileMd5sum": "0bfcb1b9d90413785091b139398045c6",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "896f5980-dbb4-5f39-81c7-02a5303273dd",
+            "studyId": "BRCA-FR",
+            "analysisId": "EGAR00001383895",
+            "fileName": "6615fde39663fe233e54e5b013309b47.ls996_C5E5JANXX_7_14nf.ua.bam",
+            "fileSize": 5814258904,
+            "fileType": "BAM",
+            "fileMd5sum": "6615fde39663fe233e54e5b013309b47",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001383895",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

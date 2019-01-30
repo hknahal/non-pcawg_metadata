@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "LAML-KR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001634204",
+    "study": "LAML-KR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA594321",
+            "specimenId": "SP191740",
+            "sampleSubmitterId": "AML_14y_08_DX",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP191740",
+                "donorId": "DO227504",
+                "specimenSubmitterId": "AML_14y_08_DX",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - blood derived (bone marrow)"
+            },
+            "donor": {
+                "donorId": "DO227504",
+                "donorSubmitterId": "AML_14y_08",
+                "studyId": "LAML-KR",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "4d24378d-ad5e-5c92-be44-b61b8ba7d75d",
+            "studyId": "LAML-KR",
+            "analysisId": "EGAR00001634204",
+            "fileName": "bundle.EGAR00001634204.xml",
+            "fileSize": 4642,
+            "fileType": "XML",
+            "fileMd5sum": "ce83c9bc1549778a363ff3444f03736e",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "58e169cb-de96-55b0-aa33-3c91cb94c7ef",
+            "studyId": "LAML-KR",
+            "analysisId": "EGAR00001634204",
+            "fileName": "17883de0316a822e6d38e84535eedb9b.1423_60x_sort_dup_rea_recal.bam",
+            "fileSize": 258077818496,
+            "fileType": "BAM",
+            "fileMd5sum": "17883de0316a822e6d38e84535eedb9b",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001634204",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "LUSC-KR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001658225",
+    "study": "LUSC-KR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA520502",
+            "specimenId": "SP133740",
+            "sampleSubmitterId": "J63_T",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP133740",
+                "donorId": "DO224599",
+                "specimenSubmitterId": "J63_T",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - other"
+            },
+            "donor": {
+                "donorId": "DO224599",
+                "donorSubmitterId": "SC_LUNG_19",
+                "studyId": "LUSC-KR",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "977bf6cd-2a7b-5466-9f00-ca95070187f7",
+            "studyId": "LUSC-KR",
+            "analysisId": "EGAR00001658225",
+            "fileName": "bundle.EGAR00001658225.xml",
+            "fileSize": 4887,
+            "fileType": "XML",
+            "fileMd5sum": "2e6e25de4c3d64de17678ab08ac0ccf7",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "5d476450-d4a0-5958-8738-4e6dc7efea70",
+            "studyId": "LUSC-KR",
+            "analysisId": "EGAR00001658225",
+            "fileName": "6c2a99bb9b111a991c9080e511e74dac.J63-T_60x_sort_dup_rea_recal.bam",
+            "fileSize": 269291735790,
+            "fileType": "BAM",
+            "fileMd5sum": "6c2a99bb9b111a991c9080e511e74dac",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001658225",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

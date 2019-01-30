@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "BRCA-FR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001383884",
+    "study": "BRCA-FR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA595170",
+            "specimenId": "SP192093",
+            "sampleSubmitterId": "DN14014",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP192093",
+                "donorId": "DO227936",
+                "specimenSubmitterId": "TU14009",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO227936",
+                "donorSubmitterId": "PI085",
+                "studyId": "BRCA-FR",
+                "donorGender": "female",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "1af96973-24d7-547a-ae8c-1ac0ddb7e9ee",
+            "studyId": "BRCA-FR",
+            "analysisId": "EGAR00001383884",
+            "fileName": "bundle.EGAR00001383884.xml",
+            "fileSize": 6627,
+            "fileType": "XML",
+            "fileMd5sum": "85270f7e2c73607e6f57e8fbacbff602",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "857feff9-5b86-5a81-8776-90d3a1d5b307",
+            "studyId": "BRCA-FR",
+            "analysisId": "EGAR00001383884",
+            "fileName": "a02dee177918544d71c878f95cfac690.ls1066_C4PB0ANXX_2_14nf.ua.bam",
+            "fileSize": 6535986503,
+            "fileType": "BAM",
+            "fileMd5sum": "a02dee177918544d71c878f95cfac690",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001383884",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

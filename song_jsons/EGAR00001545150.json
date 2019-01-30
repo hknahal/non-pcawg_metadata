@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "LICA-FR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001545150",
+    "study": "LICA-FR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA267236",
+            "specimenId": "SP49051",
+            "sampleSubmitterId": "CHC465T",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP49051",
+                "donorId": "DO22810",
+                "specimenSubmitterId": "CHC465T",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO22810",
+                "donorSubmitterId": "CHC464",
+                "studyId": "LICA-FR",
+                "donorGender": "female",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "7880c736-9a60-5357-8ca4-7c6e3ec20009",
+            "studyId": "LICA-FR",
+            "analysisId": "EGAR00001545150",
+            "fileName": "bundle.EGAR00001545150.xml",
+            "fileSize": 5752,
+            "fileType": "XML",
+            "fileMd5sum": "45571302d38828aa1ebaaae68351668e",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "9c8b3216-cba9-58d3-897d-43aa7ac9727e",
+            "studyId": "LICA-FR",
+            "analysisId": "EGAR00001545150",
+            "fileName": "4f733fa0fe0ff745adfdb6d71360930c.CHC465T.bam",
+            "fileSize": 104632264969,
+            "fileType": "BAM",
+            "fileMd5sum": "4f733fa0fe0ff745adfdb6d71360930c",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001545150",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

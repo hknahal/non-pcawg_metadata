@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "BRCA-FR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001376110",
+    "study": "BRCA-FR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA594776",
+            "specimenId": "SP191560",
+            "sampleSubmitterId": "DN1209B",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP191560",
+                "donorId": "DO227517",
+                "specimenSubmitterId": "BL12042",
+                "specimenClass": "Normal",
+                "specimenType": "Normal - blood derived"
+            },
+            "donor": {
+                "donorId": "DO227517",
+                "donorSubmitterId": "PI013",
+                "studyId": "BRCA-FR",
+                "donorGender": "female",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "2a3682c1-1c5f-524b-93f2-c0850c3dc5a4",
+            "studyId": "BRCA-FR",
+            "analysisId": "EGAR00001376110",
+            "fileName": "bundle.EGAR00001376110.xml",
+            "fileSize": 6644,
+            "fileType": "XML",
+            "fileMd5sum": "89c764441c0242aee8e0dfe34454eecd",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "b136b004-af67-56a5-9159-9678b9dd38f3",
+            "studyId": "BRCA-FR",
+            "analysisId": "EGAR00001376110",
+            "fileName": "c65a7ea6777bf1370161f52a89d97058.ls563_HUMAN_37_genomic_PD11344b_10069_2_slc.ua.bam",
+            "fileSize": 28546943177,
+            "fileType": "BAM",
+            "fileMd5sum": "c65a7ea6777bf1370161f52a89d97058",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001376110",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

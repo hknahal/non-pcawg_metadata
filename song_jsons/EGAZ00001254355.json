@@ -1,0 +1,75 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "PEME-CA",
+        "isPcawg": false
+    },
+    "analysisId": "EGAZ00001254355",
+    "study": "PEME-CA",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA604898",
+            "specimenId": "SP201275",
+            "sampleSubmitterId": "MDT-AP-0209_tumor",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP201275",
+                "donorId": "DO232952",
+                "specimenSubmitterId": "MDT-AP-0209_tumor_specimen",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO232952",
+                "donorSubmitterId": "MDT-AP-0209",
+                "studyId": "PEME-CA",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "3ac490bb-cf9b-5307-9f37-38fa4ee2a900",
+            "studyId": "PEME-CA",
+            "analysisId": "EGAZ00001254355",
+            "fileName": "bundle.EGAZ00001254355.xml",
+            "fileSize": 6340,
+            "fileType": "XML",
+            "fileMd5sum": "ca600ba19778e4ab94ab916452dd3e75",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "57929bf0-aad6-5dd8-be65-500cefd9246c",
+            "studyId": "PEME-CA",
+            "analysisId": "EGAZ00001254355",
+            "fileName": "9c59064c8e4b6a19404f12e3eb27e1d9.tumor_MDT-AP-0209_merged.mdup.bam.bai",
+            "fileSize": 8916736,
+            "fileType": "BAI",
+            "fileMd5sum": "e1114ae7eaa0bbf626ada64369e1f962",
+            "fileAccess": "controlled"
+        },
+        {
+            "info": {},
+            "objectId": "80f7de2b-2715-5c39-8fd7-d53854a605ee",
+            "studyId": "PEME-CA",
+            "analysisId": "EGAZ00001254355",
+            "fileName": "9c59064c8e4b6a19404f12e3eb27e1d9.tumor_MDT-AP-0209_merged.mdup.bam",
+            "fileSize": 96870162961,
+            "fileType": "BAM",
+            "fileMd5sum": "9c59064c8e4b6a19404f12e3eb27e1d9",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAZ00001254355",
+        "aligned": true,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

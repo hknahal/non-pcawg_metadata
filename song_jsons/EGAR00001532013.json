@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "BRCA-FR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001532013",
+    "study": "BRCA-FR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA596039",
+            "specimenId": "SP193071",
+            "sampleSubmitterId": "DN1502C",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP193071",
+                "donorId": "DO228324",
+                "specimenSubmitterId": "TU1501B",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO228324",
+                "donorSubmitterId": "S09832",
+                "studyId": "BRCA-FR",
+                "donorGender": "female",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "7504910a-bedf-5824-8568-cfc3c37e7d1f",
+            "studyId": "BRCA-FR",
+            "analysisId": "EGAR00001532013",
+            "fileName": "bundle.EGAR00001532013.xml",
+            "fileSize": 6177,
+            "fileType": "XML",
+            "fileMd5sum": "d240f02a41e0dabcfc5fdcae138bff48",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "383fccf5-ae74-5b98-8d04-75d2ed561b5f",
+            "studyId": "BRCA-FR",
+            "analysisId": "EGAR00001532013",
+            "fileName": "8d5734513b5683c466bfcdd93d13638b.ls1471_C6KB3ANXX_6_13nf.ua.bam",
+            "fileSize": 12287250980,
+            "fileType": "BAM",
+            "fileMd5sum": "8d5734513b5683c466bfcdd93d13638b",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001532013",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

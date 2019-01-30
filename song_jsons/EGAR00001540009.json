@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001540009",
+    "study": "PRAD-UK",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA595671",
+            "specimenId": "SP193197",
+            "sampleSubmitterId": "0135_CRUK_PC_0135_T1_DNA",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP193197",
+                "donorId": "DO228489",
+                "specimenSubmitterId": "0135_CRUK_PC_0135_T1",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO228489",
+                "donorSubmitterId": "0135_CRUK_PC_0135",
+                "studyId": "PRAD-UK",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "9ba102f7-9c49-5c73-b1eb-47cc6f8616f0",
+            "studyId": "PRAD-UK",
+            "analysisId": "EGAR00001540009",
+            "fileName": "bundle.EGAR00001540009.xml",
+            "fileSize": 5733,
+            "fileType": "XML",
+            "fileMd5sum": "bb31e3f1359a0c8dec59b1edefc838ed",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "a0cdb857-8bb1-5bc1-85a7-9215113a157c",
+            "studyId": "PRAD-UK",
+            "analysisId": "EGAR00001540009",
+            "fileName": "f184868fa319e61ad33753d1476a13af.20170307_icgc_prostate_020.bam",
+            "fileSize": 90536702475,
+            "fileType": "BAM",
+            "fileMd5sum": "f184868fa319e61ad33753d1476a13af",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001540009",
+        "insertSize": 314,
+        "libraryStrategy": "WGS",
+        "pairedEnd": true,
+        "info": {}
+    }
+}

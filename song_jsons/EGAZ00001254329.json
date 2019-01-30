@@ -1,0 +1,75 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "PEME-CA",
+        "isPcawg": false
+    },
+    "analysisId": "EGAZ00001254329",
+    "study": "PEME-CA",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA605069",
+            "specimenId": "SP201029",
+            "sampleSubmitterId": "MDT-AP-2673_control",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP201029",
+                "donorId": "DO232924",
+                "specimenSubmitterId": "MDT-AP-2673_control_specimen",
+                "specimenClass": "Normal",
+                "specimenType": "Normal - blood derived"
+            },
+            "donor": {
+                "donorId": "DO232924",
+                "donorSubmitterId": "MDT-AP-2673",
+                "studyId": "PEME-CA",
+                "donorGender": "female",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "da2522d3-9125-5005-84be-d9ad56c07629",
+            "studyId": "PEME-CA",
+            "analysisId": "EGAZ00001254329",
+            "fileName": "bundle.EGAZ00001254329.xml",
+            "fileSize": 6354,
+            "fileType": "XML",
+            "fileMd5sum": "e9aaf703b4dfa3b4b0eefe00a51762f2",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "61cabf20-7fc9-5252-b0d9-21a8546a7588",
+            "studyId": "PEME-CA",
+            "analysisId": "EGAZ00001254329",
+            "fileName": "efebf19e737467423eb15c72df655971.control_MDT-AP-2673_merged.mdup.bam.bai",
+            "fileSize": 8898424,
+            "fileType": "BAI",
+            "fileMd5sum": "399f6b5d24fec03e6942fb913f7c2cbc",
+            "fileAccess": "controlled"
+        },
+        {
+            "info": {},
+            "objectId": "b1f74d44-d7da-5d64-b1a6-4cecd9bad9bb",
+            "studyId": "PEME-CA",
+            "analysisId": "EGAZ00001254329",
+            "fileName": "efebf19e737467423eb15c72df655971.control_MDT-AP-2673_merged.mdup.bam",
+            "fileSize": 94488850617,
+            "fileType": "BAM",
+            "fileMd5sum": "efebf19e737467423eb15c72df655971",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAZ00001254329",
+        "aligned": true,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

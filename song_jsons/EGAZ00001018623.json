@@ -1,0 +1,76 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "OV-AU",
+        "isPcawg": false
+    },
+    "analysisId": "EGAZ00001018623",
+    "study": "OV-AU",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA505671",
+            "specimenId": "SP102030",
+            "sampleSubmitterId": "AOCS-152-5-4",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP102030",
+                "donorId": "DO46546",
+                "specimenSubmitterId": "AOCS-152-9",
+                "specimenClass": "Normal",
+                "specimenType": "Normal - blood derived"
+            },
+            "donor": {
+                "donorId": "DO46546",
+                "donorSubmitterId": "AOCS-152",
+                "studyId": "OV-AU",
+                "donorGender": "female",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "82804239-8771-58a5-b3a3-5591d54bd418",
+            "studyId": "OV-AU",
+            "analysisId": "EGAZ00001018623",
+            "fileName": "bundle.EGAZ00001018623.xml",
+            "fileSize": 13766,
+            "fileType": "XML",
+            "fileMd5sum": "94e5bd8bb070dcf07118b43bc57a8ba3",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "398d6fc6-d912-5b1a-8c3c-73e47011546c",
+            "studyId": "OV-AU",
+            "analysisId": "EGAZ00001018623",
+            "fileName": "ac8c007ec94791f2946ad0f516c6b194.IcgcOvarian_AOCS152_1DNA_1NormalBlood_ICGCDBPC20130205173_IlluminaIGNOutsourcing_NoCapture_Bwa_HiSeq.jpearson.bam.bai",
+            "fileSize": 8776872,
+            "fileType": "BAI",
+            "fileMd5sum": "889ef1cf46e5a1f996faccaf3520a72c",
+            "fileAccess": "controlled"
+        },
+        {
+            "info": {},
+            "objectId": "c51c8091-84c6-52e9-982a-b09dcac65a26",
+            "studyId": "OV-AU",
+            "analysisId": "EGAZ00001018623",
+            "fileName": "ac8c007ec94791f2946ad0f516c6b194.IcgcOvarian_AOCS152_1DNA_1NormalBlood_ICGCDBPC20130205173_IlluminaIGNOutsourcing_NoCapture_Bwa_HiSeq.jpearson.bam",
+            "fileSize": 109323342438,
+            "fileType": "BAM",
+            "fileMd5sum": "ac8c007ec94791f2946ad0f516c6b194",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAZ00001018623",
+        "aligned": true,
+        "libraryStrategy": "WGS",
+        "referenceGenome": "GRCh37",
+        "info": {}
+    }
+}

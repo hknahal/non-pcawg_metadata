@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "BRCA-FR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001375814",
+    "study": "BRCA-FR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA594956",
+            "specimenId": "SP191786",
+            "sampleSubmitterId": "DN11006",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP191786",
+                "donorId": "DO227776",
+                "specimenSubmitterId": "TU11011",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO227776",
+                "donorSubmitterId": "PI042",
+                "studyId": "BRCA-FR",
+                "donorGender": "female",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "35aa1907-1981-55e0-8239-b78c900a5a2b",
+            "studyId": "BRCA-FR",
+            "analysisId": "EGAR00001375814",
+            "fileName": "bundle.EGAR00001375814.xml",
+            "fileSize": 6638,
+            "fileType": "XML",
+            "fileMd5sum": "6b3e3786b15f4bbe6220746097651926",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "7782d4af-db45-5230-8fee-e3ef9e80c98a",
+            "studyId": "BRCA-FR",
+            "analysisId": "EGAR00001375814",
+            "fileName": "f06186d699da0374b5a327cb3e7ddfe1.ls27_HUMAN_37_genomic_PD6048a_4208_6_slc.ua.bam",
+            "fileSize": 23743496781,
+            "fileType": "BAM",
+            "fileMd5sum": "f06186d699da0374b5a327cb3e7ddfe1",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001375814",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

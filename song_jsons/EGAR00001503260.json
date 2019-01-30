@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "PRAD-FR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001503260",
+    "study": "PRAD-FR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA597975",
+            "specimenId": "SP194994",
+            "sampleSubmitterId": "DA1200A",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP194994",
+                "donorId": "DO229073",
+                "specimenSubmitterId": "PR1200A",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO229073",
+                "donorSubmitterId": "PA1200A",
+                "studyId": "PRAD-FR",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "9849e9c0-82bc-5515-8733-8686750e60c9",
+            "studyId": "PRAD-FR",
+            "analysisId": "EGAR00001503260",
+            "fileName": "bundle.EGAR00001503260.xml",
+            "fileSize": 6239,
+            "fileType": "XML",
+            "fileMd5sum": "3e9f92c0b51075e7e76c89dd1e8db982",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "529ca1be-b37a-556e-ba7b-fc03a644065e",
+            "studyId": "PRAD-FR",
+            "analysisId": "EGAR00001503260",
+            "fileName": "44227c281d4a06b311b6b7ee35b6cf62.ls22_C0TRHACXX_8_12.ua.bam",
+            "fileSize": 7879269612,
+            "fileType": "BAM",
+            "fileMd5sum": "44227c281d4a06b311b6b7ee35b6cf62",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001503260",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

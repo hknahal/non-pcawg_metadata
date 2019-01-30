@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "PRAD-FR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001503865",
+    "study": "PRAD-FR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA598106",
+            "specimenId": "SP195017",
+            "sampleSubmitterId": "DA13002",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP195017",
+                "donorId": "DO229119",
+                "specimenSubmitterId": "PR13004",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO229119",
+                "donorSubmitterId": "PA13007",
+                "studyId": "PRAD-FR",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "55aacbe2-3b10-5dbe-b875-128d14a9a2aa",
+            "studyId": "PRAD-FR",
+            "analysisId": "EGAR00001503865",
+            "fileName": "bundle.EGAR00001503865.xml",
+            "fileSize": 6126,
+            "fileType": "XML",
+            "fileMd5sum": "3b9aaa1790b9591588646ff55b78cc4f",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "5438680b-a8d0-5102-a8c0-9736d914ca9a",
+            "studyId": "PRAD-FR",
+            "analysisId": "EGAR00001503865",
+            "fileName": "060975882f42480d993956c7396f9adc.ls1561_C2K6EACXX_3_19nf.ua.bam",
+            "fileSize": 16534602072,
+            "fileType": "BAM",
+            "fileMd5sum": "060975882f42480d993956c7396f9adc",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001503865",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

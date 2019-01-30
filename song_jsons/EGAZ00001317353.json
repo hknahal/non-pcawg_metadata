@@ -1,0 +1,76 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "RECA-EU",
+        "isPcawg": false
+    },
+    "analysisId": "EGAZ00001317353",
+    "study": "RECA-EU",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA599955",
+            "specimenId": "SP196775",
+            "sampleSubmitterId": "RS114489TU-CUT2-40",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP196775",
+                "donorId": "DO232128",
+                "specimenSubmitterId": "RS114489TU-CUT2-40",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO232128",
+                "donorSubmitterId": "RS114489",
+                "studyId": "RECA-EU",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "1ae21dac-be07-5630-8357-58c10a4457f5",
+            "studyId": "RECA-EU",
+            "analysisId": "EGAZ00001317353",
+            "fileName": "bundle.EGAZ00001317353.xml",
+            "fileSize": 4229,
+            "fileType": "XML",
+            "fileMd5sum": "16ab6a2ab4c2c9288a030b9bea8a8bdf",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "f40f71a0-486a-52fd-ae8b-442c62d67e55",
+            "studyId": "RECA-EU",
+            "analysisId": "EGAZ00001317353",
+            "fileName": "a21a770d2b611524f0dee6b66d25eaf7.RS114489TU-CUT2-40.sorted.dup.recal.bam.bai",
+            "fileSize": 4210224,
+            "fileType": "BAI",
+            "fileMd5sum": "6b34bdae43cfeac529075a10162450f2",
+            "fileAccess": "controlled"
+        },
+        {
+            "info": {},
+            "objectId": "40341410-5390-52f0-bfe4-221ce567eac2",
+            "studyId": "RECA-EU",
+            "analysisId": "EGAZ00001317353",
+            "fileName": "a21a770d2b611524f0dee6b66d25eaf7.RS114489TU-CUT2-40.sorted.dup.recal.bam",
+            "fileSize": 333355426,
+            "fileType": "BAM",
+            "fileMd5sum": "a21a770d2b611524f0dee6b66d25eaf7",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAZ00001317353",
+        "aligned": true,
+        "libraryStrategy": "WGS",
+        "referenceGenome": "GRCh37",
+        "info": {}
+    }
+}

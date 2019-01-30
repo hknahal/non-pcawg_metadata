@@ -1,0 +1,76 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "OV-AU",
+        "isPcawg": false
+    },
+    "analysisId": "EGAZ00001018786",
+    "study": "OV-AU",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA505309",
+            "specimenId": "SP101765",
+            "sampleSubmitterId": "AOCS-124-1-X",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP101765",
+                "donorId": "DO46436",
+                "specimenSubmitterId": "AOCS-124-1",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO46436",
+                "donorSubmitterId": "AOCS-124",
+                "studyId": "OV-AU",
+                "donorGender": "female",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "ab3647aa-e767-5610-ba9f-d1bb2c5e2dbc",
+            "studyId": "OV-AU",
+            "analysisId": "EGAZ00001018786",
+            "fileName": "bundle.EGAZ00001018786.xml",
+            "fileSize": 13798,
+            "fileType": "XML",
+            "fileMd5sum": "a87e430e56f606b48f21b8c8f468352c",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "7093da69-4ff9-5e21-8a26-72263607f88f",
+            "studyId": "OV-AU",
+            "analysisId": "EGAZ00001018786",
+            "fileName": "c7847bf88c1b0e3a57a9694cf91f4922.IcgcOvarian_AOCS124_1DNA_7PrimaryTumour_ICGCDBPC20130205106_IlluminaIGNOutsourcing_NoCapture_Bwa_HiSeq.jpearson.bam.bai",
+            "fileSize": 8804224,
+            "fileType": "BAI",
+            "fileMd5sum": "978b6acc00ccdf81c2e6445bc728d7af",
+            "fileAccess": "controlled"
+        },
+        {
+            "info": {},
+            "objectId": "a4395d19-5531-5bbc-bd93-7740e8aa4cee",
+            "studyId": "OV-AU",
+            "analysisId": "EGAZ00001018786",
+            "fileName": "c7847bf88c1b0e3a57a9694cf91f4922.IcgcOvarian_AOCS124_1DNA_7PrimaryTumour_ICGCDBPC20130205106_IlluminaIGNOutsourcing_NoCapture_Bwa_HiSeq.jpearson.bam",
+            "fileSize": 128905022263,
+            "fileType": "BAM",
+            "fileMd5sum": "c7847bf88c1b0e3a57a9694cf91f4922",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAZ00001018786",
+        "aligned": true,
+        "libraryStrategy": "WGS",
+        "referenceGenome": "GRCh37",
+        "info": {}
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "EOPC-DE",
+        "isPcawg": false
+    },
+    "analysisId": "EGAZ00001257447",
+    "study": "EOPC-DE",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA596692",
+            "specimenId": "SP192777",
+            "sampleSubmitterId": "EOPC-020_normal",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP192777",
+                "donorId": "DO228267",
+                "specimenSubmitterId": "EOPC-020_normal",
+                "specimenClass": "Normal",
+                "specimenType": "Normal - blood derived"
+            },
+            "donor": {
+                "donorId": "DO228267",
+                "donorSubmitterId": "EOPC-020",
+                "studyId": "EOPC-DE",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "9f0a5364-f206-5393-b52d-c14d392e2918",
+            "studyId": "EOPC-DE",
+            "analysisId": "EGAZ00001257447",
+            "fileName": "bundle.EGAZ00001257447.xml",
+            "fileSize": 3849,
+            "fileType": "XML",
+            "fileMd5sum": "7f3c79465fc702f44c31edd90bf4184a",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "856d89ac-95eb-57df-8047-7043fcb0582a",
+            "studyId": "EOPC-DE",
+            "analysisId": "EGAZ00001257447",
+            "fileName": "71d64c36a9a336b6f2d9ef0fba08afff.WGS_paired_EOPC-020_normal_merged.mdup.bam.bai",
+            "fileSize": 9220072,
+            "fileType": "BAI",
+            "fileMd5sum": "465433002557916eafb37a36ecc90593",
+            "fileAccess": "controlled"
+        },
+        {
+            "info": {},
+            "objectId": "11808259-d5ab-536c-ac08-21fc5c2c9acd",
+            "studyId": "EOPC-DE",
+            "analysisId": "EGAZ00001257447",
+            "fileName": "71d64c36a9a336b6f2d9ef0fba08afff.WGS_paired_EOPC-020_normal_merged.mdup.bam",
+            "fileSize": 70243722729,
+            "fileType": "BAM",
+            "fileMd5sum": "71d64c36a9a336b6f2d9ef0fba08afff",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAZ00001257447",
+        "aligned": true,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "LICA-FR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001545133",
+    "study": "LICA-FR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA530108",
+            "specimenId": "SP112514",
+            "sampleSubmitterId": "CHC2111T",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP112514",
+                "donorId": "DO50933",
+                "specimenSubmitterId": "CHC2111T",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO50933",
+                "donorSubmitterId": "CHC2111",
+                "studyId": "LICA-FR",
+                "donorGender": "female",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "608340cc-9fd1-570f-944a-9f469e629e93",
+            "studyId": "LICA-FR",
+            "analysisId": "EGAR00001545133",
+            "fileName": "bundle.EGAR00001545133.xml",
+            "fileSize": 6459,
+            "fileType": "XML",
+            "fileMd5sum": "45f0680d722d8fe41393fa311eeceb49",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "06724d00-14aa-5aac-8011-cf317b194289",
+            "studyId": "LICA-FR",
+            "analysisId": "EGAR00001545133",
+            "fileName": "d6fe0e9dcaa05d3f50723e6f6be5f79b.CHC2111T.bam",
+            "fileSize": 105101004006,
+            "fileType": "BAM",
+            "fileMd5sum": "d6fe0e9dcaa05d3f50723e6f6be5f79b",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001545133",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

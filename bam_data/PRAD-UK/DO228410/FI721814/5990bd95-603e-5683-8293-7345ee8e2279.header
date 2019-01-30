@@ -1,0 +1,47 @@
+@HD	VN:1.4	GO:none	SO:coordinate
+@SQ	SN:1	LN:249250621	AS:37	SP:HUMAN
+@SQ	SN:2	LN:243199373	AS:37	SP:HUMAN
+@SQ	SN:3	LN:198022430	AS:37	SP:HUMAN
+@SQ	SN:4	LN:191154276	AS:37	SP:HUMAN
+@SQ	SN:5	LN:180915260	AS:37	SP:HUMAN
+@SQ	SN:6	LN:171115067	AS:37	SP:HUMAN
+@SQ	SN:7	LN:159138663	AS:37	SP:HUMAN
+@SQ	SN:8	LN:146364022	AS:37	SP:HUMAN
+@SQ	SN:9	LN:141213431	AS:37	SP:HUMAN
+@SQ	SN:10	LN:135534747	AS:37	SP:HUMAN
+@SQ	SN:11	LN:135006516	AS:37	SP:HUMAN
+@SQ	SN:12	LN:133851895	AS:37	SP:HUMAN
+@SQ	SN:13	LN:115169878	AS:37	SP:HUMAN
+@SQ	SN:14	LN:107349540	AS:37	SP:HUMAN
+@SQ	SN:15	LN:102531392	AS:37	SP:HUMAN
+@SQ	SN:16	LN:90354753	AS:37	SP:HUMAN
+@SQ	SN:17	LN:81195210	AS:37	SP:HUMAN
+@SQ	SN:18	LN:78077248	AS:37	SP:HUMAN
+@SQ	SN:19	LN:59128983	AS:37	SP:HUMAN
+@SQ	SN:20	LN:63025520	AS:37	SP:HUMAN
+@SQ	SN:21	LN:48129895	AS:37	SP:HUMAN
+@SQ	SN:22	LN:51304566	AS:37	SP:HUMAN
+@SQ	SN:X	LN:155270560	AS:37	SP:HUMAN
+@SQ	SN:Y	LN:59373566	AS:37	SP:HUMAN
+@SQ	SN:MT	LN:16569	AS:37	SP:HUMAN
+@RG	ID:4863675	PL:HiSeq	PU:397_1_2_1	LB:PD18905c_1_76376	PI:474	DS:short	MI:918	SM:PD18905c	PG:4863675	CN:EXT
+@RG	ID:4863721	PL:HiSeq	PU:322_1_2_1	LB:PD18905c_1_76376	PI:474	DS:short	MI:918	SM:PD18905c	PG:4863721	CN:EXT
+@RG	ID:4863731	PL:HiSeq	PU:998_1_2_1	LB:PD18905c_1_76376	PI:474	DS:short	MI:918	SM:PD18905c	PG:4863731	CN:EXT
+@RG	ID:4863975	PL:HiSeq	PU:839_1_3_1	LB:PD18905c_1_76376	PI:474	DS:short	MI:918	SM:PD18905c	PG:4863975	CN:EXT
+@PG	ID:4861994	PN:bwa	PP:4862006	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa aln -l 32 -t 6 -f data/176399_1078/4861994.sai ref/human/37/genome.fa data/176399_1078/full_2.fastq
+@PG	ID:4862006	PN:bwa	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa aln -l 32 -t 6 -f data/176399_1078/4862006.sai ref/human/37/genome.fa data/176399_1078/full_1.fastq
+@PG	ID:4862257	PN:bwa	PP:4862266	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa aln -l 32 -t 6 -f data/176397_1078/4862257.sai ref/human/37/genome.fa data/176397_1078/full_2.fastq
+@PG	ID:4862258	PN:bwa	PP:4862271	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa aln -l 32 -t 6 -f data/176398_1078/4862258.sai ref/human/37/genome.fa data/176398_1078/full_2.fastq
+@PG	ID:4862266	PN:bwa	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa aln -l 32 -t 6 -f data/176397_1078/4862266.sai ref/human/37/genome.fa data/176397_1078/full_1.fastq
+@PG	ID:4862268	PN:bwa	PP:4862275	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa aln -l 32 -t 6 -f data/176396_1078/4862268.sai ref/human/37/genome.fa data/176396_1078/full_2.fastq
+@PG	ID:4862271	PN:bwa	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa aln -l 32 -t 6 -f data/176398_1078/4862271.sai ref/human/37/genome.fa data/176398_1078/full_1.fastq
+@PG	ID:4862275	PN:bwa	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa aln -l 32 -t 6 -f data/176396_1078/4862275.sai ref/human/37/genome.fa data/176396_1078/full_1.fastq
+@PG	ID:4863675	PN:bwa	PP:4861994	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa sampe -P -a 918 ref/human/37/genome.fa data/176399_1078/4862006.sai data/176399_1078/4861994.sai data/176399_1078/full_1.fastq data/176399_1078/full_2.fastq
+@PG	ID:4863721	PN:bwa	PP:4862258	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa sampe -P -a 918 ref/human/37/genome.fa data/176398_1078/4862271.sai data/176398_1078/4862258.sai data/176398_1078/full_1.fastq data/176398_1078/full_2.fastq
+@PG	ID:4863731	PN:bwa	PP:4862257	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa sampe -P -a 918 ref/human/37/genome.fa data/176397_1078/4862266.sai data/176397_1078/4862257.sai data/176397_1078/full_1.fastq data/176397_1078/full_2.fastq
+@PG	ID:4863975	PN:bwa	PP:4862268	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa sampe -P -a 918 ref/human/37/genome.fa data/176396_1078/4862275.sai data/176396_1078/4862268.sai data/176396_1078/full_1.fastq data/176396_1078/full_2.fastq
+@PG	ID:bammarkduplicates2	PN:bammarkduplicates2	PP:4863675	VN:2.0.18	CL:/software/CGP/external-apps/biobambam2/bin/bammarkduplicates2 rmdup=1 index=1 tmpfile=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176399_1078//3045 I=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176399_1078/4863675_sorted.bam O=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176399_1078/4863675_sorted_rmdup.bam M=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176399_1078/4863675_sorted.met indexfilename=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176399_1078/4863675_sorted_rmdup.bam.bai level=1
+@PG	ID:bammarkduplicates2.D	PN:bammarkduplicates2	PP:4863721	VN:2.0.18	CL:/software/CGP/external-apps/biobambam2/bin/bammarkduplicates2 rmdup=1 index=1 tmpfile=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176398_1078//11214 I=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176398_1078/4863721_sorted.bam O=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176398_1078/4863721_sorted_rmdup.bam M=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176398_1078/4863721_sorted.met indexfilename=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176398_1078/4863721_sorted_rmdup.bam.bai level=1
+@PG	ID:bammarkduplicates2.E	PN:bammarkduplicates2	PP:4863731	VN:2.0.18	CL:/software/CGP/external-apps/biobambam2/bin/bammarkduplicates2 rmdup=1 index=1 tmpfile=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176397_1078//5536 I=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176397_1078/4863731_sorted.bam O=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176397_1078/4863731_sorted_rmdup.bam M=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176397_1078/4863731_sorted.met indexfilename=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176397_1078/4863731_sorted_rmdup.bam.bai level=1
+@PG	ID:bammarkduplicates2.F	PN:bammarkduplicates2	PP:4863975	VN:2.0.18	CL:/software/CGP/external-apps/biobambam2/bin/bammarkduplicates2 rmdup=1 index=1 tmpfile=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176396_1078//25160 I=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176396_1078/4863975_sorted.bam O=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176396_1078/4863975_sorted_rmdup.bam M=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176396_1078/4863975_sorted.met indexfilename=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/176396_1078/4863975_sorted_rmdup.bam.bai level=1
+@PG	ID:bammarkduplicates2'	PN:bammarkduplicates2	CL:/software/CGP/external-apps/biobambam2/bin/bammarkduplicates2 rmdup=1 index=1 tmpfile=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/biobambam_tmp//12915 I=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/4866877.bam O=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/4866877_rmdup.bam M=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/4866877.met indexfilename=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/4866877_rmdup.bam.bai level=-1	PP:bammarkduplicates2.F	VN:2.0.18

@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "ESAD-UK",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001193676",
+    "study": "ESAD-UK",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA594439",
+            "specimenId": "SP192179",
+            "sampleSubmitterId": "LP6007550-DNA_A01",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP192179",
+                "donorId": "DO227797",
+                "specimenSubmitterId": "OE24T",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO227797",
+                "donorSubmitterId": "OCCAMS-ED-013",
+                "studyId": "ESAD-UK",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "86e85950-12d6-5c7d-b59e-9ed375e14b23",
+            "studyId": "ESAD-UK",
+            "analysisId": "EGAR00001193676",
+            "fileName": "bundle.EGAR00001193676.xml",
+            "fileSize": 6374,
+            "fileType": "XML",
+            "fileMd5sum": "4f402465a022487c7368dacd320dad27",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "e3488583-3e7b-5ba4-83ab-eb04067f67f5",
+            "studyId": "ESAD-UK",
+            "analysisId": "EGAR00001193676",
+            "fileName": "f4b5afecce765e46987846d68dd36c70.LP6007550-DNA_A01.bam",
+            "fileSize": 149288163730,
+            "fileType": "BAM",
+            "fileMd5sum": "f4b5afecce765e46987846d68dd36c70",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001193676",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

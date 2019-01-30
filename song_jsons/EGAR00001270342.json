@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001270342",
+    "study": "PRAD-UK",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA567219",
+            "specimenId": "SP131642",
+            "sampleSubmitterId": "0116_CRUK_PC_0116_T1_DNA",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP131642",
+                "donorId": "DO224013",
+                "specimenSubmitterId": "0116_CRUK_PC_0116_T1",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO224013",
+                "donorSubmitterId": "0116_CRUK_PC_0116",
+                "studyId": "PRAD-UK",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "dd00f17c-42bf-52a4-bc62-8e8af515bdda",
+            "studyId": "PRAD-UK",
+            "analysisId": "EGAR00001270342",
+            "fileName": "bundle.EGAR00001270342.xml",
+            "fileSize": 6051,
+            "fileType": "XML",
+            "fileMd5sum": "f1ec650b6eaeded0e8535752c7de85ee",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "31117849-a7bb-583a-b4d8-7505ca840dc1",
+            "studyId": "PRAD-UK",
+            "analysisId": "EGAR00001270342",
+            "fileName": "4669d74af9df15f81d56943c475094bb.180263_icgc.bam",
+            "fileSize": 172001074357,
+            "fileType": "BAM",
+            "fileMd5sum": "4669d74af9df15f81d56943c475094bb",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001270342",
+        "insertSize": 315,
+        "libraryStrategy": "WGS",
+        "pairedEnd": true,
+        "info": {}
+    }
+}

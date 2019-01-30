@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "BRCA-FR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001375888",
+    "study": "BRCA-FR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA595002",
+            "specimenId": "SP191867",
+            "sampleSubmitterId": "DN110CD",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP191867",
+                "donorId": "DO227815",
+                "specimenSubmitterId": "TU1106F",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO227815",
+                "donorSubmitterId": "PI051",
+                "studyId": "BRCA-FR",
+                "donorGender": "female",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "a6ab81a1-3036-5b09-9a71-b36e84a23871",
+            "studyId": "BRCA-FR",
+            "analysisId": "EGAR00001375888",
+            "fileName": "bundle.EGAR00001375888.xml",
+            "fileSize": 6641,
+            "fileType": "XML",
+            "fileMd5sum": "0b651199466c1adf3bff5160a3313727",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "9853a5ec-6fad-596b-866e-dcb8e119f3f5",
+            "studyId": "BRCA-FR",
+            "analysisId": "EGAR00001375888",
+            "fileName": "31edbdc404e70b1f39a95e8aad7a59be.ls461_HUMAN_37_genomic_PD13162a_10482_1_slc.ua.bam",
+            "fileSize": 30642345185,
+            "fileType": "BAM",
+            "fileMd5sum": "31edbdc404e70b1f39a95e8aad7a59be",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001375888",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

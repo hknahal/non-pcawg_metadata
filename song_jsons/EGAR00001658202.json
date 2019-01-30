@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "LUSC-KR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001658202",
+    "study": "LUSC-KR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA520536",
+            "specimenId": "SP133508",
+            "sampleSubmitterId": "J17_N",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP133508",
+                "donorId": "DO224558",
+                "specimenSubmitterId": "J17_N",
+                "specimenClass": "Normal",
+                "specimenType": "Normal - other"
+            },
+            "donor": {
+                "donorId": "DO224558",
+                "donorSubmitterId": "SC_LUNG_08",
+                "studyId": "LUSC-KR",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "9284f906-9f95-5e12-810d-6b769c42fcfe",
+            "studyId": "LUSC-KR",
+            "analysisId": "EGAR00001658202",
+            "fileName": "bundle.EGAR00001658202.xml",
+            "fileSize": 4887,
+            "fileType": "XML",
+            "fileMd5sum": "db43dd9830fa139663d6d845e9da18b4",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "e4400951-da07-5100-8337-46f2071024f1",
+            "studyId": "LUSC-KR",
+            "analysisId": "EGAR00001658202",
+            "fileName": "2bf6160b866aef748629bd43ecc2e872.J17-N_60x_sort_dup_rea_recal.bam",
+            "fileSize": 140645517508,
+            "fileType": "BAM",
+            "fileMd5sum": "2bf6160b866aef748629bd43ecc2e872",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001658202",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

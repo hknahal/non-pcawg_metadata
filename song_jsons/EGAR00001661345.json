@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "LICA-FR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001661345",
+    "study": "LICA-FR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA529913",
+            "specimenId": "SP112357",
+            "sampleSubmitterId": "CHC1602T",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP112357",
+                "donorId": "DO50879",
+                "specimenSubmitterId": "CHC1602T",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO50879",
+                "donorSubmitterId": "CHC1602",
+                "studyId": "LICA-FR",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "0681d234-5ab5-521e-b7bb-056b274bf550",
+            "studyId": "LICA-FR",
+            "analysisId": "EGAR00001661345",
+            "fileName": "bundle.EGAR00001661345.xml",
+            "fileSize": 5235,
+            "fileType": "XML",
+            "fileMd5sum": "b13e81759e06ed0dcc23e49df0c47e4b",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "39b31847-b3ca-5f7f-a0c7-6229ab0115d2",
+            "studyId": "LICA-FR",
+            "analysisId": "EGAR00001661345",
+            "fileName": "a44ab22dd1d55fe42b25b95f22fe9f67.CHC1602T.bam",
+            "fileSize": 388863268305,
+            "fileType": "BAM",
+            "fileMd5sum": "a44ab22dd1d55fe42b25b95f22fe9f67",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001661345",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

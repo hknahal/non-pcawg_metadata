@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "BRCA-FR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001383742",
+    "study": "BRCA-FR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA595165",
+            "specimenId": "SP192085",
+            "sampleSubmitterId": "DN13034",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP192085",
+                "donorId": "DO227935",
+                "specimenSubmitterId": "BL13025",
+                "specimenClass": "Normal",
+                "specimenType": "Normal - blood derived"
+            },
+            "donor": {
+                "donorId": "DO227935",
+                "donorSubmitterId": "PI084",
+                "studyId": "BRCA-FR",
+                "donorGender": "female",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "5a5b24b8-0693-5515-b482-8168065e38e7",
+            "studyId": "BRCA-FR",
+            "analysisId": "EGAR00001383742",
+            "fileName": "bundle.EGAR00001383742.xml",
+            "fileSize": 6617,
+            "fileType": "XML",
+            "fileMd5sum": "d2398e10db6bb4befebb6b6459876bef",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "c347d9ca-637d-59f3-880f-320e5615a5e9",
+            "studyId": "BRCA-FR",
+            "analysisId": "EGAR00001383742",
+            "fileName": "cbfe7b80151024ba77722d01a419dc34.ls1135_C5E0LANXX_1_5nf.ua.bam",
+            "fileSize": 9156928093,
+            "fileType": "BAM",
+            "fileMd5sum": "cbfe7b80151024ba77722d01a419dc34",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001383742",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

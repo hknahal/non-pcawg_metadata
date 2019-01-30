@@ -1,0 +1,76 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "CLLE-ES",
+        "isPcawg": false
+    },
+    "analysisId": "EGAZ00001093274",
+    "study": "CLLE-ES",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA564186",
+            "specimenId": "SP130449",
+            "sampleSubmitterId": "1424-01-03ND",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP130449",
+                "donorId": "DO223559",
+                "specimenSubmitterId": "1424-01-03ND",
+                "specimenClass": "Normal",
+                "specimenType": "Normal - blood derived"
+            },
+            "donor": {
+                "donorId": "DO223559",
+                "donorSubmitterId": "1424",
+                "studyId": "CLLE-ES",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "8d1a060d-dd7d-5d3a-840c-01a9ead6af35",
+            "studyId": "CLLE-ES",
+            "analysisId": "EGAZ00001093274",
+            "fileName": "bundle.EGAZ00001093274.xml",
+            "fileSize": 7617,
+            "fileType": "XML",
+            "fileMd5sum": "7a1310dbcd7f0650eb58b6c7dc193a08",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "b8e0c3aa-3bf4-5106-88d1-dc51a2f589fc",
+            "studyId": "CLLE-ES",
+            "analysisId": "EGAZ00001093274",
+            "fileName": "a4df32a7c25a13ff0748155d99a98e0e.1424ND.bam.bai",
+            "fileSize": 8732776,
+            "fileType": "BAI",
+            "fileMd5sum": "f320da4a8c2d1347aee9db1eaa2610c5",
+            "fileAccess": "controlled"
+        },
+        {
+            "info": {},
+            "objectId": "d00ec6bb-af07-51a4-bd1a-a97dd9d22491",
+            "studyId": "CLLE-ES",
+            "analysisId": "EGAZ00001093274",
+            "fileName": "a4df32a7c25a13ff0748155d99a98e0e.1424ND.bam",
+            "fileSize": 84279037848,
+            "fileType": "BAM",
+            "fileMd5sum": "a4df32a7c25a13ff0748155d99a98e0e",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAZ00001093274",
+        "aligned": true,
+        "libraryStrategy": "WGS",
+        "referenceGenome": "GRCh37",
+        "info": {}
+    }
+}

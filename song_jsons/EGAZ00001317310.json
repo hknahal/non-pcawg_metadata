@@ -1,0 +1,76 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "RECA-EU",
+        "isPcawg": false
+    },
+    "analysisId": "EGAZ00001317310",
+    "study": "RECA-EU",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA599912",
+            "specimenId": "SP196623",
+            "sampleSubmitterId": "RS1141253Blood-DNA",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP196623",
+                "donorId": "DO232107",
+                "specimenSubmitterId": "RS1141253Blood-DNA",
+                "specimenClass": "Normal",
+                "specimenType": "Normal - blood derived"
+            },
+            "donor": {
+                "donorId": "DO232107",
+                "donorSubmitterId": "RS1141253",
+                "studyId": "RECA-EU",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "9ad1dae0-a508-5181-824e-347455b79958",
+            "studyId": "RECA-EU",
+            "analysisId": "EGAZ00001317310",
+            "fileName": "bundle.EGAZ00001317310.xml",
+            "fileSize": 4229,
+            "fileType": "XML",
+            "fileMd5sum": "70196a85cf31944fc23fd401cc0e22e0",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "54f8ee7f-6c01-591f-b44f-66e474e8e2a8",
+            "studyId": "RECA-EU",
+            "analysisId": "EGAZ00001317310",
+            "fileName": "2d2b6f1f5317809ace27b87b5a373193.RS1141253Blood-DNA.sorted.dup.recal.bam.bai",
+            "fileSize": 5641880,
+            "fileType": "BAI",
+            "fileMd5sum": "42907c6dda4e789ea19ea546a8ac89b1",
+            "fileAccess": "controlled"
+        },
+        {
+            "info": {},
+            "objectId": "10aa8d45-b3db-5876-bf06-b36ab9cee5a3",
+            "studyId": "RECA-EU",
+            "analysisId": "EGAZ00001317310",
+            "fileName": "2d2b6f1f5317809ace27b87b5a373193.RS1141253Blood-DNA.sorted.dup.recal.bam",
+            "fileSize": 801785566,
+            "fileType": "BAM",
+            "fileMd5sum": "2d2b6f1f5317809ace27b87b5a373193",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAZ00001317310",
+        "aligned": true,
+        "libraryStrategy": "WGS",
+        "referenceGenome": "GRCh37",
+        "info": {}
+    }
+}

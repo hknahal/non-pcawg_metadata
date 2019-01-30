@@ -1,0 +1,44 @@
+@HD	VN:1.4	GO:none	SO:coordinate
+@SQ	SN:1	LN:249250621	AS:37	SP:HUMAN
+@SQ	SN:2	LN:243199373	AS:37	SP:HUMAN
+@SQ	SN:3	LN:198022430	AS:37	SP:HUMAN
+@SQ	SN:4	LN:191154276	AS:37	SP:HUMAN
+@SQ	SN:5	LN:180915260	AS:37	SP:HUMAN
+@SQ	SN:6	LN:171115067	AS:37	SP:HUMAN
+@SQ	SN:7	LN:159138663	AS:37	SP:HUMAN
+@SQ	SN:8	LN:146364022	AS:37	SP:HUMAN
+@SQ	SN:9	LN:141213431	AS:37	SP:HUMAN
+@SQ	SN:10	LN:135534747	AS:37	SP:HUMAN
+@SQ	SN:11	LN:135006516	AS:37	SP:HUMAN
+@SQ	SN:12	LN:133851895	AS:37	SP:HUMAN
+@SQ	SN:13	LN:115169878	AS:37	SP:HUMAN
+@SQ	SN:14	LN:107349540	AS:37	SP:HUMAN
+@SQ	SN:15	LN:102531392	AS:37	SP:HUMAN
+@SQ	SN:16	LN:90354753	AS:37	SP:HUMAN
+@SQ	SN:17	LN:81195210	AS:37	SP:HUMAN
+@SQ	SN:18	LN:78077248	AS:37	SP:HUMAN
+@SQ	SN:19	LN:59128983	AS:37	SP:HUMAN
+@SQ	SN:20	LN:63025520	AS:37	SP:HUMAN
+@SQ	SN:21	LN:48129895	AS:37	SP:HUMAN
+@SQ	SN:22	LN:51304566	AS:37	SP:HUMAN
+@SQ	SN:X	LN:155270560	AS:37	SP:HUMAN
+@SQ	SN:Y	LN:59373566	AS:37	SP:HUMAN
+@SQ	SN:MT	LN:16569	AS:37	SP:HUMAN
+@RG	ID:1953490	PL:HiSeq	PU:236_6	LB:PD14733b_1_38342	PI:305	DS:short	MI:550	SM:PD14733b	PG:1953490	CN:EXT
+@RG	ID:1953495	PL:HiSeq	PU:236_7	LB:PD14733b_1_38342	PI:305	DS:short	MI:550	SM:PD14733b	PG:1953495	CN:EXT
+@RG	ID:1953506	PL:HiSeq	PU:236_5	LB:PD14733b_1_38342	PI:305	DS:short	MI:550	SM:PD14733b	PG:1953506	CN:EXT
+@PG	ID:1951564	PN:bwa	PP:1951569	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa aln -l 32 -t 6 -f data/79342_822/1951564.sai ref/human/37/genome.fa data/79342_822/full_2.fastq
+@PG	ID:1951566	PN:bwa	PP:1951574	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa aln -l 32 -t 6 -f data/79344_822/1951566.sai ref/human/37/genome.fa data/79344_822/full_2.fastq
+@PG	ID:1951569	PN:bwa	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa aln -l 32 -t 6 -f data/79342_822/1951569.sai ref/human/37/genome.fa data/79342_822/full_1.fastq
+@PG	ID:1951574	PN:bwa	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa aln -l 32 -t 6 -f data/79344_822/1951574.sai ref/human/37/genome.fa data/79344_822/full_1.fastq
+@PG	ID:1951580	PN:bwa	PP:1951638	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa aln -l 32 -t 6 -f data/79343_822/1951580.sai ref/human/37/genome.fa data/79343_822/full_2.fastq
+@PG	ID:1951638	PN:bwa	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa aln -l 32 -t 6 -f data/79343_822/1951638.sai ref/human/37/genome.fa data/79343_822/full_1.fastq
+@PG	ID:1953490	PN:bwa	PP:1951580	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa sampe -P -a 550 ref/human/37/genome.fa data/79343_822/1951638.sai data/79343_822/1951580.sai data/79343_822/full_1.fastq data/79343_822/full_2.fastq
+@PG	ID:1953495	PN:bwa	PP:1951566	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa sampe -P -a 550 ref/human/37/genome.fa data/79344_822/1951574.sai data/79344_822/1951566.sai data/79344_822/full_1.fastq data/79344_822/full_2.fastq
+@PG	ID:1953506	PN:bwa	PP:1951564	VN:0.5.9-r16+rugo	CL:/software/CGP/bin/bwa sampe -P -a 550 ref/human/37/genome.fa data/79342_822/1951569.sai data/79342_822/1951564.sai data/79342_822/full_1.fastq data/79342_822/full_2.fastq
+@PG	ID:MarkDuplicates	PN:MarkDuplicates	VN:1.96(1510)	CL:net.sf.picard.sam.MarkDuplicates INPUT=[/lustre/scratch112/sanger/cgppipe/nst_pipe/data/79343_822/1953490_sorted.bam] OUTPUT=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/79343_822/1953490_sorted_rmdup.bam METRICS_FILE=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/79343_822/1953490_sorted.met REMOVE_DUPLICATES=true ASSUME_SORTED=true MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=800 TMP_DIR=[/lustre/scratch112/sanger/cgppipe/nst_pipe/data/79343_822] VERBOSITY=ERROR VALIDATION_STRINGENCY=SILENT COMPRESSION_LEVEL=1 CREATE_INDEX=true    PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 SORTING_COLLECTION_SIZE_RATIO=0.25 READ_NAME_REGEX=[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).* OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 QUIET=false MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false
+@PG	ID:MarkDuplicates.2	PN:MarkDuplicates	VN:1.96(1510)	CL:net.sf.picard.sam.MarkDuplicates INPUT=[/lustre/scratch112/sanger/cgppipe/nst_pipe/data/79344_822/1953495_sorted.bam] OUTPUT=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/79344_822/1953495_sorted_rmdup.bam METRICS_FILE=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/79344_822/1953495_sorted.met REMOVE_DUPLICATES=true ASSUME_SORTED=true MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=800 TMP_DIR=[/lustre/scratch112/sanger/cgppipe/nst_pipe/data/79344_822] VERBOSITY=ERROR VALIDATION_STRINGENCY=SILENT COMPRESSION_LEVEL=1 CREATE_INDEX=true    PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 SORTING_COLLECTION_SIZE_RATIO=0.25 READ_NAME_REGEX=[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).* OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 QUIET=false MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false
+@PG	ID:MarkDuplicates.3	PN:MarkDuplicates	VN:1.96(1510)	CL:net.sf.picard.sam.MarkDuplicates INPUT=[/lustre/scratch112/sanger/cgppipe/nst_pipe/data/79342_822/1953506_sorted.bam] OUTPUT=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/79342_822/1953506_sorted_rmdup.bam METRICS_FILE=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/79342_822/1953506_sorted.met REMOVE_DUPLICATES=true ASSUME_SORTED=true MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=800 TMP_DIR=[/lustre/scratch112/sanger/cgppipe/nst_pipe/data/79342_822] VERBOSITY=ERROR VALIDATION_STRINGENCY=SILENT COMPRESSION_LEVEL=1 CREATE_INDEX=true    PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 SORTING_COLLECTION_SIZE_RATIO=0.25 READ_NAME_REGEX=[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).* OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 QUIET=false MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false
+@PG	ID:MarkDuplicates.C	PN:MarkDuplicates	PP:MarkDuplicates	VN:1.96(1510)	CL:net.sf.picard.sam.MarkDuplicates INPUT=[/lustre/scratch112/sanger/cgppipe/nst_pipe/data/1985611.bam] OUTPUT=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/1985611_rmdup.bam METRICS_FILE=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/1985611.met REMOVE_DUPLICATES=true ASSUME_SORTED=true MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=800 TMP_DIR=[/lustre/scratch112/sanger/cgppipe/nst_pipe/data/picard_tmp] VERBOSITY=ERROR VALIDATION_STRINGENCY=SILENT COMPRESSION_LEVEL=5 CREATE_INDEX=true    PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 SORTING_COLLECTION_SIZE_RATIO=0.25 READ_NAME_REGEX=[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).* OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 QUIET=false MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false
+@PG	ID:MarkDuplicates.D	PN:MarkDuplicates	PP:MarkDuplicates.3	VN:1.96(1510)	CL:net.sf.picard.sam.MarkDuplicates INPUT=[/lustre/scratch112/sanger/cgppipe/nst_pipe/data/1985611.bam] OUTPUT=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/1985611_rmdup.bam METRICS_FILE=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/1985611.met REMOVE_DUPLICATES=true ASSUME_SORTED=true MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=800 TMP_DIR=[/lustre/scratch112/sanger/cgppipe/nst_pipe/data/picard_tmp] VERBOSITY=ERROR VALIDATION_STRINGENCY=SILENT COMPRESSION_LEVEL=5 CREATE_INDEX=true    PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 SORTING_COLLECTION_SIZE_RATIO=0.25 READ_NAME_REGEX=[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).* OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 QUIET=false MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false
+@PG	ID:MarkDuplicates.E	PN:MarkDuplicates	PP:MarkDuplicates.2	VN:1.96(1510)	CL:net.sf.picard.sam.MarkDuplicates INPUT=[/lustre/scratch112/sanger/cgppipe/nst_pipe/data/1985611.bam] OUTPUT=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/1985611_rmdup.bam METRICS_FILE=/lustre/scratch112/sanger/cgppipe/nst_pipe/data/1985611.met REMOVE_DUPLICATES=true ASSUME_SORTED=true MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=800 TMP_DIR=[/lustre/scratch112/sanger/cgppipe/nst_pipe/data/picard_tmp] VERBOSITY=ERROR VALIDATION_STRINGENCY=SILENT COMPRESSION_LEVEL=5 CREATE_INDEX=true    PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 SORTING_COLLECTION_SIZE_RATIO=0.25 READ_NAME_REGEX=[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).* OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 QUIET=false MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false

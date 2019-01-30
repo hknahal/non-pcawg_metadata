@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "BRCA-FR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001531926",
+    "study": "BRCA-FR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA596093",
+            "specimenId": "SP193094",
+            "sampleSubmitterId": "DN1504E",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP193094",
+                "donorId": "DO228345",
+                "specimenSubmitterId": "TU15028",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO228345",
+                "donorSubmitterId": "S09882",
+                "studyId": "BRCA-FR",
+                "donorGender": "female",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "9157900c-a0d8-5aae-9202-cee30f049021",
+            "studyId": "BRCA-FR",
+            "analysisId": "EGAR00001531926",
+            "fileName": "bundle.EGAR00001531926.xml",
+            "fileSize": 5758,
+            "fileType": "XML",
+            "fileMd5sum": "4493976665c7579351e009565739148f",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "dd4deef8-6ae2-56e8-bda2-5c1875d4cbb1",
+            "studyId": "BRCA-FR",
+            "analysisId": "EGAR00001531926",
+            "fileName": "47103278310edd3953a77ea7fe25f280.ls1584_C6K6CANXX_3_9nf.ua.bam",
+            "fileSize": 11626793501,
+            "fileType": "BAM",
+            "fileMd5sum": "47103278310edd3953a77ea7fe25f280",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001531926",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

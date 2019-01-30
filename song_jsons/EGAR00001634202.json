@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "LAML-KR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001634202",
+    "study": "LAML-KR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA594304",
+            "specimenId": "SP191725",
+            "sampleSubmitterId": "AML_14y_06_DX",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP191725",
+                "donorId": "DO227499",
+                "specimenSubmitterId": "AML_14y_06_DX",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - blood derived (bone marrow)"
+            },
+            "donor": {
+                "donorId": "DO227499",
+                "donorSubmitterId": "AML_14y_06",
+                "studyId": "LAML-KR",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "9837b4aa-0d43-5e09-b471-8a4336e59501",
+            "studyId": "LAML-KR",
+            "analysisId": "EGAR00001634202",
+            "fileName": "bundle.EGAR00001634202.xml",
+            "fileSize": 4648,
+            "fileType": "XML",
+            "fileMd5sum": "860cd60ec7d1d2235abd6767db44ab4f",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "47553e06-25a5-5e9c-b131-b90dcf8d490d",
+            "studyId": "LAML-KR",
+            "analysisId": "EGAR00001634202",
+            "fileName": "1eab2c53e1ff207cf70a1bffb58460d8.2301_H02LT_60x_sort_dup_rea_recal.bam",
+            "fileSize": 261060502172,
+            "fileType": "BAM",
+            "fileMd5sum": "1eab2c53e1ff207cf70a1bffb58460d8",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001634202",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

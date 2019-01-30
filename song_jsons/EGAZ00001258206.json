@@ -1,0 +1,75 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "EOPC-DE",
+        "isPcawg": false
+    },
+    "analysisId": "EGAZ00001258206",
+    "study": "EOPC-DE",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA596603",
+            "specimenId": "SP194084",
+            "sampleSubmitterId": "EOPC-167_tumor_01",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP194084",
+                "donorId": "DO228090",
+                "specimenSubmitterId": "EOPC-167_tumor_01",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO228090",
+                "donorSubmitterId": "EOPC-167",
+                "studyId": "EOPC-DE",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "58e91ea4-a56d-57ba-ba30-5f14f78bb455",
+            "studyId": "EOPC-DE",
+            "analysisId": "EGAZ00001258206",
+            "fileName": "bundle.EGAZ00001258206.xml",
+            "fileSize": 3861,
+            "fileType": "XML",
+            "fileMd5sum": "83530519aaf0e46fd5b4fa99ad06b9b6",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "2df86683-5975-5fb6-b9f2-d0e6f848c6b2",
+            "studyId": "EOPC-DE",
+            "analysisId": "EGAZ00001258206",
+            "fileName": "83dc58cc69ab5bc471d6d205316c99cb.WGS_paired_EOPC-167_tumor_01_merged.mdup.bam.bai",
+            "fileSize": 9874872,
+            "fileType": "BAI",
+            "fileMd5sum": "13af0d7fc43ecd36bd6ac244853d065c",
+            "fileAccess": "controlled"
+        },
+        {
+            "info": {},
+            "objectId": "0166d4d4-f81e-5c6c-a131-1b14e8c2a80e",
+            "studyId": "EOPC-DE",
+            "analysisId": "EGAZ00001258206",
+            "fileName": "83dc58cc69ab5bc471d6d205316c99cb.WGS_paired_EOPC-167_tumor_01_merged.mdup.bam",
+            "fileSize": 152282748847,
+            "fileType": "BAM",
+            "fileMd5sum": "83dc58cc69ab5bc471d6d205316c99cb",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAZ00001258206",
+        "aligned": true,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "OV-AU",
+        "isPcawg": false
+    },
+    "analysisId": "EGAZ00001018810",
+    "study": "OV-AU",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA505457",
+            "specimenId": "SP101866",
+            "sampleSubmitterId": "AOCS-137-1-X",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP101866",
+                "donorId": "DO46483",
+                "specimenSubmitterId": "AOCS-137-12",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - other"
+            },
+            "donor": {
+                "donorId": "DO46483",
+                "donorSubmitterId": "AOCS-137",
+                "studyId": "OV-AU",
+                "donorGender": "female",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "c8a3b0c1-2ecd-5a80-bc20-f7a2374363af",
+            "studyId": "OV-AU",
+            "analysisId": "EGAZ00001018810",
+            "fileName": "bundle.EGAZ00001018810.xml",
+            "fileSize": 13762,
+            "fileType": "XML",
+            "fileMd5sum": "411ca981abd7a10fa37f21aa6d271459",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "fe50da91-7ef6-5703-9c91-b16f0b9ab772",
+            "studyId": "OV-AU",
+            "analysisId": "EGAZ00001018810",
+            "fileName": "3bb7165192c420c7a9d14055d20f9d6b.IcgcOvarian_AOCS137_1DNA_12Ascites_ICGCDBPC20130205145_IlluminaIGNOutsourcing_NoCapture_Bwa_HiSeq.jpearson.bam.bai",
+            "fileSize": 8792288,
+            "fileType": "BAI",
+            "fileMd5sum": "cc3f99be0029aa17f57935ad55e6fe59",
+            "fileAccess": "controlled"
+        },
+        {
+            "info": {},
+            "objectId": "1102b02d-ca3f-581f-8462-7273fc45134f",
+            "studyId": "OV-AU",
+            "analysisId": "EGAZ00001018810",
+            "fileName": "3bb7165192c420c7a9d14055d20f9d6b.IcgcOvarian_AOCS137_1DNA_12Ascites_ICGCDBPC20130205145_IlluminaIGNOutsourcing_NoCapture_Bwa_HiSeq.jpearson.bam",
+            "fileSize": 182480072864,
+            "fileType": "BAM",
+            "fileMd5sum": "3bb7165192c420c7a9d14055d20f9d6b",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAZ00001018810",
+        "aligned": true,
+        "libraryStrategy": "WGS",
+        "referenceGenome": "GRCh37",
+        "info": {}
+    }
+}

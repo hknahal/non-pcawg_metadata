@@ -1,0 +1,64 @@
+{
+    "analysisType": "sequencingRead",
+    "info": {
+        "dcc_project_code": "PRAD-FR",
+        "isPcawg": false
+    },
+    "analysisId": "EGAR00001503859",
+    "study": "PRAD-FR",
+    "analysisState": "PUBLISHED",
+    "sample": [
+        {
+            "info": {},
+            "sampleId": "SA598106",
+            "specimenId": "SP195017",
+            "sampleSubmitterId": "DA13002",
+            "sampleType": "DNA",
+            "specimen": {
+                "info": {},
+                "specimenId": "SP195017",
+                "donorId": "DO229119",
+                "specimenSubmitterId": "PR13004",
+                "specimenClass": "Tumour",
+                "specimenType": "Primary tumour - solid tissue"
+            },
+            "donor": {
+                "donorId": "DO229119",
+                "donorSubmitterId": "PA13007",
+                "studyId": "PRAD-FR",
+                "donorGender": "male",
+                "info": {}
+            }
+        }
+    ],
+    "file": [
+        {
+            "info": {},
+            "objectId": "16b5e1c0-0106-5244-980a-2ab7a6fea7d2",
+            "studyId": "PRAD-FR",
+            "analysisId": "EGAR00001503859",
+            "fileName": "bundle.EGAR00001503859.xml",
+            "fileSize": 6126,
+            "fileType": "XML",
+            "fileMd5sum": "4ccafb4c50169c5041232412e6b6d160",
+            "fileAccess": "open"
+        },
+        {
+            "info": {},
+            "objectId": "2c0dc127-bb96-5687-aa02-e467b4a24767",
+            "studyId": "PRAD-FR",
+            "analysisId": "EGAR00001503859",
+            "fileName": "8dac17293ade5485120da8b6613b3fd2.ls1572_C2LN3ACXX_8_16nf.ua.bam",
+            "fileSize": 2328168054,
+            "fileType": "BAM",
+            "fileMd5sum": "8dac17293ade5485120da8b6613b3fd2",
+            "fileAccess": "controlled"
+        }
+    ],
+    "experiment": {
+        "analysisId": "EGAR00001503859",
+        "aligned": false,
+        "libraryStrategy": "WGS",
+        "info": {}
+    }
+}

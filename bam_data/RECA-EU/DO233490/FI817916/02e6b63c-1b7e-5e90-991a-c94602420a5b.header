@@ -1,0 +1,94 @@
+@HD	VN:1.4	GO:none	SO:coordinate
+@SQ	SN:1	LN:249250621
+@SQ	SN:2	LN:243199373
+@SQ	SN:3	LN:198022430
+@SQ	SN:4	LN:191154276
+@SQ	SN:5	LN:180915260
+@SQ	SN:6	LN:171115067
+@SQ	SN:7	LN:159138663
+@SQ	SN:8	LN:146364022
+@SQ	SN:9	LN:141213431
+@SQ	SN:10	LN:135534747
+@SQ	SN:11	LN:135006516
+@SQ	SN:12	LN:133851895
+@SQ	SN:13	LN:115169878
+@SQ	SN:14	LN:107349540
+@SQ	SN:15	LN:102531392
+@SQ	SN:16	LN:90354753
+@SQ	SN:17	LN:81195210
+@SQ	SN:18	LN:78077248
+@SQ	SN:19	LN:59128983
+@SQ	SN:20	LN:63025520
+@SQ	SN:21	LN:48129895
+@SQ	SN:22	LN:51304566
+@SQ	SN:X	LN:155270560
+@SQ	SN:Y	LN:59373566
+@SQ	SN:MT	LN:16569
+@SQ	SN:GL000207.1	LN:4262
+@SQ	SN:GL000226.1	LN:15008
+@SQ	SN:GL000229.1	LN:19913
+@SQ	SN:GL000231.1	LN:27386
+@SQ	SN:GL000210.1	LN:27682
+@SQ	SN:GL000239.1	LN:33824
+@SQ	SN:GL000235.1	LN:34474
+@SQ	SN:GL000201.1	LN:36148
+@SQ	SN:GL000247.1	LN:36422
+@SQ	SN:GL000245.1	LN:36651
+@SQ	SN:GL000197.1	LN:37175
+@SQ	SN:GL000203.1	LN:37498
+@SQ	SN:GL000246.1	LN:38154
+@SQ	SN:GL000249.1	LN:38502
+@SQ	SN:GL000196.1	LN:38914
+@SQ	SN:GL000248.1	LN:39786
+@SQ	SN:GL000244.1	LN:39929
+@SQ	SN:GL000238.1	LN:39939
+@SQ	SN:GL000202.1	LN:40103
+@SQ	SN:GL000234.1	LN:40531
+@SQ	SN:GL000232.1	LN:40652
+@SQ	SN:GL000206.1	LN:41001
+@SQ	SN:GL000240.1	LN:41933
+@SQ	SN:GL000236.1	LN:41934
+@SQ	SN:GL000241.1	LN:42152
+@SQ	SN:GL000243.1	LN:43341
+@SQ	SN:GL000242.1	LN:43523
+@SQ	SN:GL000230.1	LN:43691
+@SQ	SN:GL000237.1	LN:45867
+@SQ	SN:GL000233.1	LN:45941
+@SQ	SN:GL000204.1	LN:81310
+@SQ	SN:GL000198.1	LN:90085
+@SQ	SN:GL000208.1	LN:92689
+@SQ	SN:GL000191.1	LN:106433
+@SQ	SN:GL000227.1	LN:128374
+@SQ	SN:GL000228.1	LN:129120
+@SQ	SN:GL000214.1	LN:137718
+@SQ	SN:GL000221.1	LN:155397
+@SQ	SN:GL000209.1	LN:159169
+@SQ	SN:GL000218.1	LN:161147
+@SQ	SN:GL000220.1	LN:161802
+@SQ	SN:GL000213.1	LN:164239
+@SQ	SN:GL000211.1	LN:166566
+@SQ	SN:GL000199.1	LN:169874
+@SQ	SN:GL000217.1	LN:172149
+@SQ	SN:GL000216.1	LN:172294
+@SQ	SN:GL000215.1	LN:172545
+@SQ	SN:GL000205.1	LN:174588
+@SQ	SN:GL000219.1	LN:179198
+@SQ	SN:GL000224.1	LN:179693
+@SQ	SN:GL000223.1	LN:180455
+@SQ	SN:GL000195.1	LN:182896
+@SQ	SN:GL000212.1	LN:186858
+@SQ	SN:GL000222.1	LN:186861
+@SQ	SN:GL000200.1	LN:187035
+@SQ	SN:GL000193.1	LN:189789
+@SQ	SN:GL000194.1	LN:191469
+@SQ	SN:GL000225.1	LN:211173
+@SQ	SN:GL000192.1	LN:547496
+@RG	ID:Nextera_Exome020_Lib-B06_2233_1	PL:Illumina	PU:run2233_1	LB:Nextera_Exome020_Lib-B06	SM:LR466TU-CUT1-DNA	CN:McGill University and Genome Quebec Innovation Center
+@RG	ID:Nextera_Exome020_Lib-B06_2233_2	PL:Illumina	PU:run2233_2	LB:Nextera_Exome020_Lib-B06	SM:LR466TU-CUT1-DNA	CN:McGill University and Genome Quebec Innovation Center
+@PG	ID:GATK IndelRealigner	CL:knownAlleles=[] targetIntervals=alignment/LR466TU-CUT1-DNA/realign/1.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=20000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK IndelRealigner.3	CL:knownAlleles=[] targetIntervals=alignment/LR466TU-CUT1-DNA/realign/2.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=20000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:GATK IndelRealigner.4	CL:knownAlleles=[] targetIntervals=alignment/LR466TU-CUT1-DNA/realign/others.intervals LODThresholdForCleaning=5.0 consensusDeterminationModel=USE_READS entropyThreshold=0.15 maxReadsInMemory=500000 maxIsizeForMovement=3000 maxPositionalMoveAllowed=200 maxConsensuses=30 maxReadsForConsensuses=120 maxReadsForRealignment=20000 noOriginalAlignmentTags=false nWayOut=null generate_nWayOut_md5s=false check_early=false noPGTag=false keepPGTags=false indelsFileForDebugging=null statisticsFileForDebugging=null SNPsFileForDebugging=null
+@PG	ID:MarkDuplicates	PN:MarkDuplicates	VN:1.118(2329276ea55d31ab6b19bab55b9ee7b51e4a446e_1406559781)	CL:picard.sam.MarkDuplicates INPUT=[alignment/LR466TU-CUT1-DNA/LR466TU-CUT1-DNA.matefixed.sorted.bam] OUTPUT=alignment/LR466TU-CUT1-DNA/LR466TU-CUT1-DNA.sorted.dup.bam METRICS_FILE=alignment/LR466TU-CUT1-DNA/LR466TU-CUT1-DNA.sorted.dup.metrics REMOVE_DUPLICATES=false TMP_DIR=[/lb/scratch] VALIDATION_STRINGENCY=SILENT MAX_RECORDS_IN_RAM=1000000 CREATE_INDEX=true CREATE_MD5_FILE=true    PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates ASSUME_SORTED=false MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=8000 SORTING_COLLECTION_SIZE_RATIO=0.25 READ_NAME_REGEX=[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).* OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 VERBOSITY=INFO QUIET=false COMPRESSION_LEVEL=5
+@PG	ID:bwa	PN:bwa	VN:0.7.6a-r433	CL:bwa mem -M -t 14 -R @RG\tID:Nextera_Exome020_Lib-B06_2233_2\tSM:LR466TU-CUT1-DNA\tLB:Nextera_Exome020_Lib-B06\tPU:run2233_2\tCN:McGill University and Genome Quebec Innovation Center\tPL:Illumina /sb/programs/analyste/genomes/species//Homo_sapiens.GRCh37/genome/bwa_index/Homo_sapiens.GRCh37.fa /sb/hiseq/141031_SN7001300_0501_AHAV6TADXX_2233HS12A/Unaligned.2/Project_nanuq/Sample_LR466TU-CUT1-DNA_Nextera_Exome020_Lib_B06/LR466TU-CUT1-DNA_Nextera_Exome020_Lib_B06_TAGGCATG-GTAAGGAG_L002_R1_001.fastq.gz /sb/hiseq/141031_SN7001300_0501_AHAV6TADXX_2233HS12A/Unaligned.2/Project_nanuq/Sample_LR466TU-CUT1-DNA_Nextera_Exome020_Lib_B06/LR466TU-CUT1-DNA_Nextera_Exome020_Lib_B06_TAGGCATG-GTAAGGAG_L002_R2_001.fastq.gz
+@PG	ID:bwa.1	PN:bwa	VN:0.7.6a-r433	CL:bwa mem -M -t 14 -R @RG\tID:Nextera_Exome020_Lib-B06_2233_1\tSM:LR466TU-CUT1-DNA\tLB:Nextera_Exome020_Lib-B06\tPU:run2233_1\tCN:McGill University and Genome Quebec Innovation Center\tPL:Illumina /sb/programs/analyste/genomes/species//Homo_sapiens.GRCh37/genome/bwa_index/Homo_sapiens.GRCh37.fa /sb/hiseq/141031_SN7001300_0501_AHAV6TADXX_2233HS12A/Unaligned.1/Project_nanuq/Sample_LR466TU-CUT1-DNA_Nextera_Exome020_Lib_B06/LR466TU-CUT1-DNA_Nextera_Exome020_Lib_B06_TAGGCATG-GTAAGGAG_L001_R1_001.fastq.gz /sb/hiseq/141031_SN7001300_0501_AHAV6TADXX_2233HS12A/Unaligned.1/Project_nanuq/Sample_LR466TU-CUT1-DNA_Nextera_Exome020_Lib_B06/LR466TU-CUT1-DNA_Nextera_Exome020_Lib_B06_TAGGCATG-GTAAGGAG_L001_R2_001.fastq.gz
+@PG	ID:GATK PrintReads	VN:3.2-2-gec30cee	CL:readGroup=null platform=null number=-1 sample_file=[] sample_name=[] simplify=false no_pg_tag=false
