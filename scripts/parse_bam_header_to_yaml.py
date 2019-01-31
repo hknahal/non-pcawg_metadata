@@ -172,7 +172,7 @@ for line in contents:
          metadata['aliquotId'] = aliquot_id
          metadata['dccSpecimenType'] = dcc_specimen_type
          metadata['libraryStrategy'] = 'WGS'
-         metadata['useCntl'] = ''
+         metadata['useCntl'] = 'N/A'
          specimenType = "control"
          if specimen_type_regex.search(dcc_specimen_type):
             control_sample = get_control_sample(project_id, submitter_sample_id)
