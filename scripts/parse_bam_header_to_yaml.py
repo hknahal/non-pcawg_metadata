@@ -135,7 +135,7 @@ for line in contents:
    data = line.split("\t")
    project_id = data[9]
    print("project_id = %s"%project_id)
-   metadata['dccProjectCode'] = project_id
+   metadata['study'] = project_id
    file_id = data[1]
    object_id = data[2]
    analysis_id = data[11]
@@ -152,25 +152,25 @@ for line in contents:
    gender = getGender(dcc_donor_id)
    for item in file_data['file']:
       if item['objectId'] == object_id:
-         file_info['name'] = item['fileName']
-         file_info['size'] = item['fileSize']
+         file_info['fileName'] = item['fileName']
+         file_info['fileSize'] = item['fileSize']
          file_info['readGroupIdInFile'] = ''
-         file_info['md5sum'] = item['fileMd5sum']
+         file_info['fileMd5sum'] = item['fileMd5sum']
          file_info['path'] = "song://collaboratory/%s/%s"%(analysis_id, object_id)
          file_info['referenceGenome'] = ''
-         file_info['format'] = item['fileType']
+         file_info['fileType'] = item['fileType']
    projectDir = "%s/%s/%s/%s"%(rootDir, project_id, dcc_donor_id, file_id) 
    for header_fileName in os.listdir(projectDir):
       print("fileName = %s"%header_fileName)
       if os.stat("%s/%s"%(projectDir, header_fileName)).st_size != 0:
          metadata = OrderedDict()
-         metadata['dccProjectCode'] = project_id
-         metadata['submitterDonorId'] = submitter_donor_id
-         metadata['submitterSpecimenId'] = submitter_specimen_id
-         metadata['submitterSampleId'] = submitter_sample_id
-         metadata['gender'] = gender
+         metadata['study'] = project_id
+         metadata['donorSubmitterId'] = submitter_donor_id
+         metadata['specimenSubmitterId'] = submitter_specimen_id
+         metadata['sampleSubmitterId'] = submitter_sample_id
+         metadata['donorGender'] = gender
          metadata['aliquotId'] = aliquot_id
-         metadata['dccSpecimenType'] = dcc_specimen_type
+         metadata['specimenType'] = dcc_specimen_type
          metadata['libraryStrategy'] = 'WGS'
          metadata['useCntl'] = 'N/A'
          specimenType = "control"
@@ -186,9 +186,12 @@ for line in contents:
             read_groups_info = OrderedDict()
             out.write("%s"%line)
             for flag in flags:
-               value = read_group.get(flag, '')
-               if flag == 'PI' and value != '':
-                  value = int(value)
+               value = read_group.get(flag, "")
+               if flag == 'PI':
+                  if value != '':
+                     value = int(value)
+                  else:
+                     value = None
                if flag == 'PU' and value != '':
                   value = str(value)
                read_groups_info[flag_conversions[flag]] = value
